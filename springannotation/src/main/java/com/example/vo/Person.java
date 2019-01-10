@@ -1,11 +1,18 @@
 package com.example.vo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Person {
 
     private String name;
     private Integer age;
 
-    public Person() {
+/*    public Person() {
     }
 
     public Person(String name, Integer age) {
@@ -35,5 +42,5 @@ public class Person {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
-    }
+    }*/
 }
