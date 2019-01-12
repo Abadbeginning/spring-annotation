@@ -30,6 +30,7 @@ public class PersonConfig {
 
     @Bean(name = "person")
     public Person person2(){
+        System.out.println("容器添加person。。。");
         return new Person("小鸟",32);
     }
 

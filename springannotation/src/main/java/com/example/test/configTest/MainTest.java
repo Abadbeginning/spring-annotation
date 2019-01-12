@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.configTest;
 
 import com.example.vo.Person;
 import org.springframework.context.ApplicationContext;

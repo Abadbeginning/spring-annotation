@@ -8,6 +8,8 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/install/respository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE-sources.jar!/" />
+      <root url="jar://D:/install/respository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar!/" />
+      <root url="jar://D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
     </SOURCES>
   </library>
 </component>

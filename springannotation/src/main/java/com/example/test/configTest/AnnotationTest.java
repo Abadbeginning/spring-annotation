@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.configTest;
 
 import com.example.config.PersonConfig;
 import com.example.vo.Person;
