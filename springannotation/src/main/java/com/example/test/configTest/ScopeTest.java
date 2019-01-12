@@ -16,7 +16,8 @@ public class ScopeTest {
         System.out.println("创建over");
         Person a = applicationContext.getBean(Person.class);
         Person b = applicationContext.getBean(Person.class);
-        System.out.println(a == b);
+//        System.out.println(a == b);
+
     }
 
 
