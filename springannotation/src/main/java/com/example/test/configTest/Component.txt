@@ -1,0 +1,21 @@
+这个包里存放的是 spring的组件注解的测试例子
+    思考为什么需要注解了 注解为我们做了什么
+    自己学习组件注解总结(心程):
+       一开始我 只是想着 自己写代码无需配置xml 你可以配置
+       controller层 service层 因为太过重复
+       就这样@controller/@service/@Repository/@Component
+       初步释放了 确实是爽了 但是这个就跟欲望似的 开了一个口子 就守不住了
+       正好又遇到导入第三方的组件 类如@Bean 用之前xml配置bean配置老烦了
+       就这样@Configuration(配置类xxx.xml) + @Bean(<bean></bean>) 无需手动配置xml
+       想想都爽 当然它的底层注解也是有@Component实现的(测试这些注解 需配合)
+       要是多个@Bean 我不传参 只要一个无参就行了 配置起来挺头疼的
+       管理起来也是很麻烦呀 这是@Import解救了我们 只要类名.class就行
+       而且@Import接受数组类型 这个可以帮我们自动导入组件到容器中了
+       我想找到某个包下的所有的信息 有的时候某些信息不需要帮我过滤掉
+       这时候@ComponentScan就出现了 用着用着一个@ComponentScan
+       java8 支持多个@ComponentScan 老版本@ComponentScans 支持
+       数组类型 也是解决了我的问题 懒加载 多例还是单例什么的也是注解@Scope默认单例
+       @Lazy
+
+
+
