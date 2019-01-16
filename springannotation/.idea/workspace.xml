@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vo/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vo/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +31,7 @@
         <counts>
           <entry key="class" value="33" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="59" />
+          <entry key="java" value="61" />
           <entry key="md" value="3" />
           <entry key="txt" value="1" />
           <entry key="xml" value="4" />
@@ -46,7 +41,7 @@
         <counts>
           <entry key="CLASS" value="33" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="61" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="4" />
@@ -56,17 +51,17 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="2175" />
+          <entry key="java" value="2209" />
           <entry key="md" value="117" />
-          <entry key="txt" value="748" />
+          <entry key="txt" value="754" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="2175" />
+          <entry key="JAVA" value="2209" />
           <entry key="Markdown" value="117" />
-          <entry key="PLAIN_TEXT" value="758" />
+          <entry key="PLAIN_TEXT" value="764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -81,11 +76,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="87">
+              <caret line="10" column="131" selection-start-line="10" selection-start-column="131" selection-end-line="10" selection-end-column="131" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,10 +101,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/PersonConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="320">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,17 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -172,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/vo/Duck.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/vo/Chicken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/TestImport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java" />
       </list>
     </option>
@@ -324,7 +322,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547606298988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547606335663" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
@@ -535,7 +533,7 @@
       <workItem from="1547274542587" duration="3965000" />
       <workItem from="1547298309733" duration="1286000" />
       <workItem from="1547337776244" duration="4837000" />
-      <workItem from="1547601743275" duration="4038000" />
+      <workItem from="1547601743275" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="传统bean的定义">
       <created>1547088489364</created>
@@ -656,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547345379061</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="注解版组件@Import">
+      <created>1547606335346</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547606335346</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33151000" />
+    <option name="totallyTimeSpent" value="33412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,10 +709,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="43" width="1567" height="860" extended-state="0" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22200133" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22259136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -716,7 +721,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2802198" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5497896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,7 +729,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32819074" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32398316" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31837308" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -753,7 +758,8 @@
     <MESSAGE value="注解版组件@scope使用 demo" />
     <MESSAGE value="注解版组件@scope使用 + 懒加载 demo" />
     <MESSAGE value="注解版组件@Conditional demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解版组件@Conditional demo" />
+    <MESSAGE value="注解版组件@Import" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解版组件@Import" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1033,10 +1039,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestContditional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestScopeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="160">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,35 +1068,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/PersonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestContditional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="320">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1089,8 +1085,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="87">
+          <caret line="10" column="131" selection-start-line="10" selection-start-column="131" selection-end-line="10" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
