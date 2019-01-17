@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/conditional/MyDefineImport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/conditional/MySelectImport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vo/CoCo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vo/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vo/Sun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bean/test/TestBaseFUN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/conditional/MyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/TestFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/config/TestFactoryBeanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +19,24 @@
     <session id="569239077">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="51" />
+          <entry key="class" value="53" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="68" />
+          <entry key="java" value="81" />
           <entry key="md" value="3" />
           <entry key="txt" value="1" />
           <entry key="xml" value="5" />
@@ -52,9 +44,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="51" />
+          <entry key="CLASS" value="53" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="81" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
@@ -64,18 +56,18 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="2557" />
+          <entry key="java" value="3035" />
           <entry key="md" value="117" />
-          <entry key="txt" value="754" />
+          <entry key="txt" value="764" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="2557" />
+          <entry key="JAVA" value="3035" />
           <entry key="Markdown" value="117" />
-          <entry key="PLAIN_TEXT" value="764" />
+          <entry key="PLAIN_TEXT" value="774" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -92,80 +84,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="32">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/conditional/MyDefineImport.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/config/TestFactoryBeanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+            <state relative-caret-position="193">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/support/RootBeanDefinition.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="29" />
-              <folding>
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1726#1727#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/PersonConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -175,8 +114,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -220,12 +159,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/vo/Chicken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/TestImport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/conditional/MySelectImport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/conditional/MyDefine.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/conditional/MyDefineImport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/bean/test/TestBaseFUN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/conditional/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/config/TestFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/config/TestFactoryBeanTest.java" />
       </list>
     </option>
   </component>
@@ -254,10 +197,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3" />
-    <option name="y" value="111" />
+    <option name="x" value="-43" />
     <option name="width" value="1943" />
-    <option name="height" value="1045" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,17 +267,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="setfilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
@@ -344,17 +275,52 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547628571599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547716227148" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
@@ -388,20 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestImport.test">
-    <configuration name="ScopeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.test.configTest.ScopeTest" />
-      <module name="spring-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.test.configTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestFactoryBeanTest.myFactoryBean">
     <configuration name="ConditionalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotation" />
       <extension name="coverage">
@@ -447,6 +400,22 @@
       <option name="PACKAGE_NAME" value="com.example.test.configTest" />
       <option name="MAIN_CLASS_NAME" value="com.example.test.configTest.ScopeTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactoryBeanTest.myFactoryBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.config" />
+      <option name="MAIN_CLASS_NAME" value="com.example.config.TestFactoryBeanTest" />
+      <option name="METHOD_NAME" value="myFactoryBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -531,19 +500,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ScopeTest" />
       <item itemvalue="JUnit.ScopeTest.test" />
       <item itemvalue="JUnit.ConditionalTest.test" />
       <item itemvalue="JUnit.ScopeTest.test1" />
       <item itemvalue="JUnit.TestImport.test" />
+      <item itemvalue="JUnit.TestFactoryBeanTest.myFactoryBean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFactoryBeanTest.myFactoryBean" />
         <item itemvalue="JUnit.TestImport.test" />
         <item itemvalue="JUnit.ConditionalTest.test" />
         <item itemvalue="JUnit.ScopeTest.test1" />
         <item itemvalue="JUnit.ScopeTest.test" />
-        <item itemvalue="Application.ScopeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +535,8 @@
       <workItem from="1547298309733" duration="1286000" />
       <workItem from="1547337776244" duration="4837000" />
       <workItem from="1547601743275" duration="5185000" />
-      <workItem from="1547625567348" duration="2772000" />
+      <workItem from="1547625567348" duration="3695000" />
+      <workItem from="1547711244377" duration="4467000" />
     </task>
     <task id="LOCAL-00001" summary="传统bean的定义">
       <created>1547088489364</created>
@@ -701,43 +671,64 @@
       <option name="project" value="LOCAL" />
       <updated>1547606364745</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="注解版组件@Import(手动注解ImportBeanDefinitionRegistrar  ImportSelector)">
+      <created>1547628570341</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547628570342</updated>
+    </task>
+    <task id="LOCAL-00021" summary="注解版组件@Import(手动注解ImportBeanDefinitionRegistrar  ImportSelector)">
+      <created>1547628578147</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547628578147</updated>
+    </task>
+    <task id="LOCAL-00022" summary="注解版组件@Import(手动注解ImportBeanDefinitionRegistrar  ImportSelector)">
+      <created>1547628592520</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547628592520</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestImport_test - 2019.01.16 at 10h 35m 39s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 10h 36m 35s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 10h 37m 31s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 10h 37m 52s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 10h 38m 07s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 16h 11m 00s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 16h 12m 59s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 16h 14m 10s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestImport_test - 2019.01.16 at 16h 15m 12s.xml">
-      <configuration name="TestImport.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestImport_test - 2019.01.16 at 16h 17m 36s.xml">
       <configuration name="TestImport.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestImport_test - 2019.01.16 at 16h 46m 36s.xml">
+      <configuration name="TestImport.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestImport_test - 2019.01.16 at 16h 47m 30s.xml">
+      <configuration name="TestImport.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestImport_test - 2019.01.16 at 16h 47m 50s.xml">
+      <configuration name="TestImport.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 16h 52m 39s.xml">
+      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 16h 53m 59s.xml">
+      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 03m 37s.xml">
+      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 04m 12s.xml">
+      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 07m 03s.xml">
+      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 07m 23s.xml">
+      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37070000" />
+    <option name="totallyTimeSpent" value="42460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,10 +740,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <frame x="-34" y="0" width="1567" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22524917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23591782" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46524823" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32819074" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3177305" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32913166" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24983388" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22730285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -761,7 +784,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7363254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9032258" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -782,7 +805,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -799,58 +822,10 @@
     <MESSAGE value="注解版组件@scope使用 + 懒加载 demo" />
     <MESSAGE value="注解版组件@Conditional demo" />
     <MESSAGE value="注解版组件@Import" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解版组件@Import" />
+    <MESSAGE value="注解版组件@Import(手动注解ImportBeanDefinitionRegistrar  ImportSelector)" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解版组件@Import(手动注解ImportBeanDefinitionRegistrar  ImportSelector)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar!/org/springframework/context/annotation/ScopedProxyMode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/respository/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -963,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestContditional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestScopeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1019,26 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/PersonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1060,16 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/conditional/MySelectImport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,16 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/annotation/AnnotatedBeanDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1129,16 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,17 +1085,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="46" column="29" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/conditional/MyDefineImport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+        <state relative-caret-position="256">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/conditional/MySelectImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/TestImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/Component.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bean/test/TestBaseFUN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="118" selection-start-line="9" selection-start-column="118" selection-end-line="9" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestImportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestContditional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/conditional/MyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/PersonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/config/PersonConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/config/TestFactoryBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
