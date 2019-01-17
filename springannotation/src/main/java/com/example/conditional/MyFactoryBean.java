@@ -19,6 +19,6 @@ public class MyFactoryBean implements FactoryBean<Sun> {
     // 是否是单例  true -> 单例
     // false多实例 每次获取都会创建一个新bean
     public boolean isSingleton() {
-        return true;
+        return false;
     }
 }
