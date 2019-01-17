@@ -15,7 +15,7 @@
        这时候@ComponentScan就出现了 用着用着一个@ComponentScan
        java8 支持多个@ComponentScan 老版本@ComponentScans 支持
        数组类型 也是解决了我的问题 懒加载 多例还是单例什么的也是注解@Scope默认单例
-       @Lazy
+       @Lazy 简介一下FactoryBean的实现
 
 
 
