@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java" afterDir="false" />
+    <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="注解版 生命周期之@Bean的initMethod = &quot;&quot;,destroyMethod=&quot;&quot; demo实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,18 +53,18 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="3419" />
+          <entry key="java" value="3489" />
           <entry key="md" value="117" />
-          <entry key="txt" value="796" />
+          <entry key="txt" value="809" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="3419" />
+          <entry key="JAVA" value="3489" />
           <entry key="Markdown" value="117" />
-          <entry key="PLAIN_TEXT" value="806" />
+          <entry key="PLAIN_TEXT" value="819" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -103,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state>
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
@@ -322,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548155049046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548155109019" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
@@ -543,7 +540,7 @@
       <workItem from="1547601743275" duration="5185000" />
       <workItem from="1547625567348" duration="3695000" />
       <workItem from="1547711244377" duration="5408000" />
-      <workItem from="1548146554107" duration="4606000" />
+      <workItem from="1548146554107" duration="4886000" />
     </task>
     <task id="LOCAL-00001" summary="传统bean的定义">
       <created>1547088489364</created>
@@ -713,13 +710,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547716351991</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="注解版 生命周期之@Bean的initMethod = &quot;&quot;,destroyMethod=&quot;&quot; demo实现">
+      <created>1548155101153</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548155101153</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 03m 37s.xml">
-      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 04m 12s.xml">
       <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
     </history-entry>
@@ -747,9 +748,12 @@
     <history-entry file="MainConfigBeanTest_test - 2019.01.22 at 18h 41m 02s.xml">
       <configuration name="MainConfigBeanTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainConfigBeanTest_test - 2019.01.22 at 19h 01m 11s.xml">
+      <configuration name="MainConfigBeanTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48011000" />
+    <option name="totallyTimeSpent" value="48291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +768,7 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2398671" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2398671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -773,7 +777,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46423563" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46423563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -846,7 +850,8 @@
     <MESSAGE value="注解版组件@Import(手动注解ImportBeanDefinitionRegistrar  ImportSelector)" />
     <MESSAGE value="注解版组件factoryBean的实现(单例版本)" />
     <MESSAGE value="注解版组件factoryBean的实现(多实例版本)" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解版组件factoryBean的实现(多实例版本)" />
+    <MESSAGE value="注解版 生命周期之@Bean的initMethod = &quot;&quot;,destroyMethod=&quot;&quot; demo实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解版 生命周期之@Bean的initMethod = &quot;&quot;,destroyMethod=&quot;&quot; demo实现" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/configTest/AnnotationTest.java">
@@ -1230,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state>
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
