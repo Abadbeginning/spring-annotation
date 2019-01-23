@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/MyFeet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,18 +55,18 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="3927" />
+          <entry key="java" value="3946" />
           <entry key="md" value="117" />
-          <entry key="txt" value="809" />
+          <entry key="txt" value="842" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="3927" />
+          <entry key="JAVA" value="3946" />
           <entry key="Markdown" value="117" />
-          <entry key="PLAIN_TEXT" value="819" />
+          <entry key="PLAIN_TEXT" value="852" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -85,11 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="143">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
@@ -99,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Goose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="32">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#131#132#0" expanded="true" />
@@ -120,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="-4">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Car.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/MyFeet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Goose.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java" />
       </list>
     </option>
   </component>
@@ -329,7 +326,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548226700538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548226931468" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
@@ -549,7 +546,7 @@
       <workItem from="1547625567348" duration="3695000" />
       <workItem from="1547711244377" duration="5408000" />
       <workItem from="1548146554107" duration="6142000" />
-      <workItem from="1548225000863" duration="1618000" />
+      <workItem from="1548225000863" duration="2141000" />
     </task>
     <task id="LOCAL-00001" summary="传统bean的定义">
       <created>1547088489364</created>
@@ -747,16 +744,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548155178742</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="注解版 生命周期之接口初始化bean 销毁bean&#10;(&#10;    13、生命周期-InitializingBean和DisposableBean&#10;    14、生命周期-@PostConstruct&amp;@PreDestroy &#10;     demo实现&#10;)">
+      <created>1548226869505</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1548226869505</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 07m 41s.xml">
-      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFactoryBeanTest_myFactoryBean - 2019.01.17 at 17h 12m 00s.xml">
-      <configuration name="TestFactoryBeanTest.myFactoryBean" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainConfigBeanTest_test - 2019.01.22 at 18h 37m 53s.xml">
       <configuration name="MainConfigBeanTest.test" configurationId="JUnit" />
     </history-entry>
@@ -781,9 +779,15 @@
     <history-entry file="MainConfigBeanTest_test1 - 2019.01.23 at 14h 51m 29s.xml">
       <configuration name="MainConfigBeanTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainConfigBeanTest_test1 - 2019.01.23 at 14h 57m 04s.xml">
+      <configuration name="MainConfigBeanTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainConfigBeanTest_test1 - 2019.01.23 at 14h 58m 23s.xml">
+      <configuration name="MainConfigBeanTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51165000" />
+    <option name="totallyTimeSpent" value="51688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +802,7 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24318936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24318936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -807,14 +811,14 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.71107996" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53997195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32819074" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32819074" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31697056" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32913166" />
@@ -881,7 +885,8 @@
     <MESSAGE value="注解版组件factoryBean的实现(单例版本)" />
     <MESSAGE value="注解版组件factoryBean的实现(多实例版本)" />
     <MESSAGE value="注解版 生命周期之@Bean的initMethod = &quot;&quot;,destroyMethod=&quot;&quot; demo实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解版 生命周期之@Bean的initMethod = &quot;&quot;,destroyMethod=&quot;&quot; demo实现" />
+    <MESSAGE value="注解版 生命周期之接口初始化bean 销毁bean&#10;(&#10;    13、生命周期-InitializingBean和DisposableBean&#10;    14、生命周期-@PostConstruct&amp;@PreDestroy &#10;     demo实现&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解版 生命周期之接口初始化bean 销毁bean&#10;(&#10;    13、生命周期-InitializingBean和DisposableBean&#10;    14、生命周期-@PostConstruct&amp;@PreDestroy &#10;     demo实现&#10;)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/conditional/LinuxConditional.java">
@@ -1240,32 +1245,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Goose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="32">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#131#132#0" expanded="true" />
@@ -1274,6 +1257,28 @@
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#418#419#0" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MainConfigBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MainConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>

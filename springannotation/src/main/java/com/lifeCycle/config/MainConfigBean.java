@@ -28,13 +28,15 @@ import org.springframework.context.annotation.Scope;
 *    2、通过接口实现相对的销毁 初始化方法
 *       (implements InitializingBean(定义初始化逻辑), DisposableBean(定义销毁逻辑))
 *
-*   3、// 在bean创建完成并赋值 容器执行初始化
+*   3、使用JSR250
+*       // 在bean创建完成并赋值 容器执行初始化
          @PostConstruct
 
          // 在容器销毁bean之前 进行方法的清理工作
         @PreDestroy
 
     4、
+
 *
 * */
 @Configuration
