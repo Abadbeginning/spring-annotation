@@ -36,9 +36,9 @@ import org.springframework.context.annotation.Scope;
          // 在容器销毁bean之前 进行方法的清理工作
         @PreDestroy
 
-    4、BeanPostProcessor(在初始化 销毁方法之前拦截)
+    4、BeanPostProcessor(在初始化之前 之后的拦截)
         postProcessBeforeInitialization 在bean创建完成并赋值 在初始化之前执行这个方法
-        postProcessAfterInitialization  在容器销毁bean之前 自定义销毁方法之前执行这个方法
+        postProcessAfterInitialization  在初始化之后执行这个方法
 
 *
 * */
