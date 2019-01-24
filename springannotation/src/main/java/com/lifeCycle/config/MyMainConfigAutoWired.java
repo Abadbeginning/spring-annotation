@@ -11,6 +11,11 @@ import org.springframework.context.annotation.*;
 *       4)、 @Autowired 有时候值为空时 会报错 默认是true 一定将属性赋值 将required = false即可
 *       5)、 @Primary spring自动装配的时候 默认使用首选的bean(@Qualifier也使用的话 还是会以@Qualifier为首的)
 *
+*      @Resource:
+*           自动装配注解 通过属性名查询 不支持@Primary 比较单一
+*       @Inject
+*           导包 和@Autowired功能差不多 不支持required = false
+ *
 * */
 
 
