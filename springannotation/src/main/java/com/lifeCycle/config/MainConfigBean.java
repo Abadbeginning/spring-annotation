@@ -41,6 +41,17 @@ import org.springframework.context.annotation.Scope;
         postProcessAfterInitialization  在初始化之后执行这个方法
 
 *
+*  BeanPostProcessor的原理解析:
+*       doCreateBean:
+*           populateBean(bean填充)
+*           initializeBean
+*                  applyBeanPostProcessorsBeforeInitialization(bean, beanName)
+*                  invokeInitMethods(beanName, wrappedBean, mbd)
+*                  applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName)
+*
+*  spring底层对BeanPostProcessor的使用:
+*       bean赋值 注入其他组件 @Autowired @Async 生命周期注解功能 xxxBeanPostProcessor
+*
 * */
 @Configuration
 @Import({MyFeet.class, Goose.class, MyBeanPostProcessor.class})
