@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +30,7 @@
     <session id="569239077">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -42,19 +38,20 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="80" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="126" />
+          <entry key="java" value="127" />
           <entry key="md" value="3" />
           <entry key="properties" value="1" />
           <entry key="py" value="1" />
@@ -66,7 +63,7 @@
         <counts>
           <entry key="CLASS" value="80" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="126" />
+          <entry key="JAVA" value="127" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
@@ -78,19 +75,19 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="5807" />
+          <entry key="java" value="5830" />
           <entry key="md" value="117" />
           <entry key="properties" value="15" />
-          <entry key="txt" value="856" />
+          <entry key="txt" value="858" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="5807" />
+          <entry key="JAVA" value="5830" />
           <entry key="Markdown" value="117" />
-          <entry key="PLAIN_TEXT" value="866" />
+          <entry key="PLAIN_TEXT" value="868" />
           <entry key="Properties" value="15" />
           <entry key="XML" value="5" />
         </counts>
@@ -107,15 +104,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="320">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="192">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="288">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,8 +223,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/readme.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" />
       </list>
     </option>
   </component>
@@ -257,11 +252,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="228" />
-    <option name="width" value="1942" />
-    <option name="height" value="812" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-210" />
+    <option name="y" value="240" />
+    <option name="width" value="1943" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -270,6 +265,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,14 +418,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/pom.xml&#10;userco&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/src/main/java/com/lifeCycle/controller/UserController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548340137985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548340199167" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
@@ -650,7 +645,8 @@
       <workItem from="1547711244377" duration="5408000" />
       <workItem from="1548146554107" duration="6142000" />
       <workItem from="1548225000863" duration="8795000" />
-      <workItem from="1548313519813" duration="12618000" />
+      <workItem from="1548313519813" duration="12778000" />
+      <workItem from="1548398018021" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="传统bean的定义">
       <created>1547088489364</created>
@@ -897,13 +893,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548333088558</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="注解版 生命周期之&#10;(&#10;   21、自动装配-@Resource和@Inject&#10;)">
+      <created>1548340183734</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1548340183734</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 19h 36m 08s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 19h 48m 52s.xml">
       <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
     </history-entry>
@@ -931,9 +931,12 @@
     <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 22h 25m 12s.xml">
       <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 22h 27m 27s.xml">
+      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70960000" />
+    <option name="totallyTimeSpent" value="71494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,10 +948,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <frame x="98" y="374" width="1567" height="656" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20863788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21073559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -964,7 +967,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033224" side_tool="true" weight="0.4333801" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033224" side_tool="true" weight="0.4327731" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31697056" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32913166" />
@@ -1036,7 +1039,8 @@
     <MESSAGE value="注解版 生命周期之&#10;(&#10;    18、属性赋值-@Value赋值16、生命周期-BeanPostProcessor原理&#10;     demo实现&#10;)" />
     <MESSAGE value="注解版 生命周期之&#10;(&#10;   19、属性赋值-@PropertySource加载外部配置文件&#10;)" />
     <MESSAGE value="注解版 生命周期之&#10;(&#10;   20、自动装配-@Autowired&amp;@Qualifier&amp;@Primary&#10;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解版 生命周期之&#10;(&#10;   20、自动装配-@Autowired&amp;@Qualifier&amp;@Primary&#10;)" />
+    <MESSAGE value="注解版 生命周期之&#10;(&#10;   21、自动装配-@Resource和@Inject&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解版 生命周期之&#10;(&#10;   21、自动装配-@Resource和@Inject&#10;)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bean/test/TestBaseFUN.java">
@@ -1092,12 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#66#67#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,9 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,11 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,9 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,9 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
           <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,9 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,9 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,9 +1292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,9 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,15 +1327,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/controller/UserController.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/controller/UserController.py" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/config/TestFactoryBeanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
@@ -1375,9 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1406,16 +1370,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="320">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1424,22 +1385,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="192">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="288">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>

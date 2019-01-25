@@ -16,6 +16,9 @@ import org.springframework.context.annotation.*;
 *       @Inject
 *           导包 和@Autowired功能差不多 不支持required = false
  *
+ *      @Autowired: spring定义的
+ *      @Resource和@Inject 都是JAVA规范
+ *
 * */
 
 
