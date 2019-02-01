@@ -19,6 +19,8 @@ import org.springframework.context.annotation.*;
  *      @Autowired: spring定义的
  *      @Resource和@Inject 都是JAVA规范
  *
+ *
+ *
 * */
 
 
