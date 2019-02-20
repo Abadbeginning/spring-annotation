@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05917b77-630f-4b0f-8026-79fff224d833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aop/aopClass/AspectAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aop/aopClass/TestDivMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aop/config/MainAopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aop/aopClass/AspectAnnotationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,67 +35,71 @@
     <session id="569239077">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="84" />
+          <entry key="class" value="87" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="129" />
+          <entry key="java" value="136" />
           <entry key="md" value="3" />
           <entry key="properties" value="1" />
           <entry key="py" value="1" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="84" />
+          <entry key="CLASS" value="87" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="129" />
+          <entry key="JAVA" value="136" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
           <entry key="Python" value="1" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="3" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="6040" />
+          <entry key="java" value="7117" />
           <entry key="md" value="117" />
           <entry key="properties" value="15" />
           <entry key="txt" value="858" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="6040" />
+          <entry key="JAVA" value="7117" />
           <entry key="Markdown" value="117" />
           <entry key="PLAIN_TEXT" value="868" />
           <entry key="Properties" value="15" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -106,39 +114,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Hello.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aop/config/MainAopConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="437">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aop/aopClass/AspectAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/install/respository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/AfterReturning.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/aop/aopClass/AspectAnnotationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,8 +166,8 @@
       <list>
         <option value="yet_unknown" />
         <option value="Python Script" />
-        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -178,10 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/test/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/test/AnnotationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" />
@@ -225,10 +236,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/readme.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Hello.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aop/aopClass/TestDivMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aop/aopClass/AspectAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aop/aopClass/AspectAnnotationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aop/config/MainAopConfig.java" />
       </list>
     </option>
   </component>
@@ -257,10 +272,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="7" />
-    <option name="width" value="976" />
-    <option name="height" value="1032" />
+    <option name="x" value="9" />
+    <option name="y" value="95" />
+    <option name="width" value="1943" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -268,8 +283,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,85 +323,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
               <item name="springannotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aopClass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
               <item name="springannotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeCycle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/pom.xml&#10;userco&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/src/main/java/com/lifeCycle/controller/UserController.java" />
+    <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/pom.xml&#10;pom&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/pom.xml&#10;userco&#9;FILE&#9;file://D:/git/spring-annotation/springannotation/src/main/java/com/lifeCycle/controller/UserController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549012577945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550664635172" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="D:/install/respository/org/springframework/spring-context/4.2.9.RELEASE/spring-context-4.2.9.RELEASE.jar!/" />
@@ -401,6 +370,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.aop.aopClass" />
       <recent name="com.lifeCycle.config" />
       <recent name="com.example.config" />
     </key>
@@ -426,17 +396,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyMainConfigAutoWiredTest.test">
-    <configuration name="MainConfigBeanTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AspectAnnotationTest.test">
+    <configuration name="AspectAnnotationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lifeCycle.config.*" />
+          <option name="PATTERN" value="com.aop.aopClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lifeCycle.config" />
-      <option name="MAIN_CLASS_NAME" value="com.lifeCycle.config.MainConfigBeanTest" />
+      <option name="PACKAGE_NAME" value="com.aop.aopClass" />
+      <option name="MAIN_CLASS_NAME" value="com.aop.aopClass.AspectAnnotationTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -571,18 +541,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestImport.test" />
-      <item itemvalue="JUnit.MainConfigBeanTest.test" />
       <item itemvalue="JUnit.MainConfigBeanTest.test1" />
       <item itemvalue="JUnit.MainConfigValueTest.test" />
       <item itemvalue="JUnit.MyMainConfigAutoWiredTest.test" />
+      <item itemvalue="JUnit.AspectAnnotationTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AspectAnnotationTest.test" />
         <item itemvalue="JUnit.MyMainConfigAutoWiredTest.test" />
         <item itemvalue="JUnit.MainConfigValueTest.test" />
         <item itemvalue="JUnit.TestImport.test" />
         <item itemvalue="JUnit.MainConfigBeanTest.test1" />
-        <item itemvalue="JUnit.MainConfigBeanTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +581,16 @@
       <workItem from="1548225000863" duration="8795000" />
       <workItem from="1548313519813" duration="12778000" />
       <workItem from="1548398018021" duration="2532000" />
-      <workItem from="1549011541685" duration="1487000" />
+      <workItem from="1549011541685" duration="1516000" />
+      <workItem from="1549105240472" duration="54000" />
+      <workItem from="1549183814494" duration="1523000" />
+      <workItem from="1549336495108" duration="228000" />
+      <workItem from="1549852286393" duration="601000" />
+      <workItem from="1549875528334" duration="4574000" />
+      <workItem from="1550125254505" duration="1286000" />
+      <workItem from="1550234770862" duration="342000" />
+      <workItem from="1550293652906" duration="1031000" />
+      <workItem from="1550660129623" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="传统bean的定义">
       <created>1547088489364</created>
@@ -872,43 +851,50 @@
       <option name="project" value="LOCAL" />
       <updated>1548398490787</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="注解版 生命周期之&#10;(&#10;   21、自动装配-@Resource和@Inject&#10;)">
+      <created>1549016107216</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1549016107216</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 20h 22m 32s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 20h 23m 07s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 20h 24m 00s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 20h 24m 42s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 20h 29m 45s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 20h 30m 35s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 22h 24m 58s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 22h 25m 12s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.01.24 at 22h 27m 27s.xml">
-      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyMainConfigAutoWiredTest_test - 2019.02.01 at 17h 12m 16s.xml">
       <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyMainConfigAutoWiredTest_test - 2019.02.20 at 19h 35m 15s.xml">
+      <configuration name="MyMainConfigAutoWiredTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 19h 35m 24s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 19h 35m 34s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 19h 36m 23s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 19h 40m 08s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 19h 42m 46s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 20h 07m 41s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 20h 08m 10s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectAnnotationTest_test - 2019.02.20 at 20h 09m 04s.xml">
+      <configuration name="AspectAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75139000" />
+    <option name="totallyTimeSpent" value="88929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -923,7 +909,7 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44170097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2179402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -932,7 +918,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966776" weight="0.43285716" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966776" weight="0.7774343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.542777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -940,7 +926,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033224" side_tool="true" weight="0.4327731" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3157143" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.48531684" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1015,55 +1001,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="注解版 生命周期之&#10;(&#10;   21、自动装配-@Resource和@Inject&#10;)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/respository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/PersonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TestContditional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/MyFeet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/annotation/PostConstruct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -1296,20 +1233,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,19 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1337,16 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,14 +1275,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Hello.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lifeCycle/config/MyMainConfigAutoWiredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="192">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/config/MyMainConfigAutoWired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/Profile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lifeCycle/bean/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/respository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aop/aopClass/TestDivMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/respository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/AfterReturning.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aop/aopClass/AspectAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aop/aopClass/AspectAnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aop/config/MainAopConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
