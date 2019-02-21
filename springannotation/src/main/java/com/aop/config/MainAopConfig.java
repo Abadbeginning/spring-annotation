@@ -13,9 +13,9 @@ import org.springframework.context.annotation.Import;
 *       3.开启基于注解的模式(@EnableAspectJAutoProxy)
 *
 *   总结:
-*        前置通知:
-*        后置通知:
-*        返回通知:
+*        前置通知(@Before): 在执行目标方法之前执行
+*        后置通知(@After): 在目标方法之后执行
+*        返回通知(@AfterReturning): 在目标方法正常返回时
 *        异常通知:
 *        环绕通知:
 *
