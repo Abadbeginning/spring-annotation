@@ -16,8 +16,8 @@ import org.springframework.context.annotation.Import;
 *        前置通知(@Before): 在执行目标方法之前执行
 *        后置通知(@After): 在目标方法之后执行
 *        返回通知(@AfterReturning): 在目标方法正常返回时
-*        异常通知:
-*        环绕通知:
+*        异常通知(@AfterThrowing): 在目标方法出现异常 显示
+*        环绕通知(@Around): 环绕目标方法前后执行
 *
 *
 * */
